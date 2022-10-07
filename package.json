@@ -1,0 +1,19 @@
+{
+  "name": "github-dependents-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "format": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.2",
+    "@types/puppeteer": "^5.4.6",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "chrome": "^0.1.0",
+    "puppeteer": "^18.2.1"
+  }
+}
