@@ -80,8 +80,8 @@ async function parseDependents(page: puppeteer.Page) {
         dependents.push({
           owner: res[1].replace(/\s\//g, ""),
           repo: res[2].replace(/\s/g, ""),
-          stars: parseInt(res[3]),
-          forks: parseInt(res[5]),
+          stars: parseInt(res[3].replace(/,/g, "")),
+          forks: parseInt(res[5].replace(/,/g, "")),
           previousGithubDependentsPageUrl: null,
         });
       } catch (error) {
