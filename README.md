@@ -20,7 +20,7 @@ This is designed to scrape the data from the Github [dependency graph](https://g
             ```bash
             node index.js repoOwner/repo dependents.json true
             ```
-            **NOTE** Starting it with `false` with override the `dependentsFile` and start scrapping from the first dependents page
+            **NOTE** Starting it with `false` will override the `dependentsFile` and start scrapping from the first dependents page
 
 ### Sorting the Scrapped Data
 
